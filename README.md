@@ -4,29 +4,15 @@ Add description of the repo ...
 
 ## Installing dependencies
 
-1. Install `pipenv` if not installed
-```bash
-sudo pip install pipenv
-```
-
-2. Install Python packages
-``` bash
-pipenv install
-```
-
-To install additional dependencies:
+Install the required Python dependencies using `pip package_name` as in:
 
 ```bash
-pipenv install package_name
+pip install notebook pandas matplolib seaborn
 ```
 
 ## Executing Jupyter
 
 ```bash
-# activate the virtual environment
-pipenv shell
-
-# run Jupyter notebook
 jupyter notebook
 ```
 

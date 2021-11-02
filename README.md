@@ -7,7 +7,7 @@ Add description of the repo ...
 Install the required Python dependencies using `pip package_name` as in:
 
 ```bash
-pip install notebook pandas matplolib seaborn
+pip install notebook pandas matplolib seaborn bokeh
 ```
 
 ## Executing Jupyter
